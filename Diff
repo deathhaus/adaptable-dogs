@@ -1,0 +1,54 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adoptable Dogs Near 90029</title>
+  <style>
+    body { font-family: sans-serif; background: #fafafa; margin: 0; padding: 1rem; }
+    h1 { text-align: center; }
+    .dog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px,1fr)); gap: 1rem; padding: 1rem; }
+    .dog-card { background: white; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow: hidden; transition: transform .2s ease; }
+    .dog-card:hover { transform: scale(1.02); }
+    .dog-card img { width: 100%; height: 200px; object-fit: cover; }
+    .info { padding: .75rem 1rem; }
+    .info h2 { margin: 0 0 .25rem; font-size: 1.2rem; }
+    .info p { margin: .25rem 0; font-size: .95rem; }
+    .dog-card a { display: inline-block; margin-top: .5rem; color: white; background: #007BFF; padding: .5rem 1rem; border-radius: 6px; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>Adoptable Dogs Near 90029 (25 mi Radius)</h1>
+  <div class="dog-grid">
+    <!-- Example Dog #1 -->
+    <div class="dog-card">
+      <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/71190123/1/?bust=1719504523&width=720" alt="Spencer">
+      <div class="info">
+        <h2>Spencer</h2>
+        <p><strong>Breed:</strong> Terrier Mix</p>
+        <p><strong>Age:</strong> Adult</p>
+        <p><strong>Location:</strong> Los Angeles, CA</p>
+        <a href="https://www.petfinder.com/dog/spencer-71190123/ca/los-angeles/league-of-extraordinary-mutts-ca2502/" target="_blank">View Profile</a>
+      </div>
+    </div>
+
+    <!-- Example Dog #2 -->
+    <div class="dog-card">
+      <img src="https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/71192826/1/?bust=1719504701&width=720" alt="Chili">
+      <div class="info">
+        <h2>Chili</h2>
+        <p><strong>Breed:</strong> Chihuahua Mix</p>
+        <p><strong>Age:</strong> Senior</p>
+        <p><strong>Location:</strong> Los Angeles, CA</p>
+        <a href="https://www.petfinder.com/dog/chili-71192826/ca/los-angeles/downtown-dog-rescue-ca2616/" target="_blank">View Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <p style="text-align:center; margin-top:2rem;">
+    For more listings, visit <a href="https://www.petfinder.com/search/dogs-for-adoption/us/ca/los-angeles/?location=90029&distance=25" target="_blank">Petfinder</a> or
+    <a href="https://www.adoptapet.com/s/adopt-a-dog?location=90029&distance=25" target="_blank">Adopt-a-Pet</a>.
+  </p>
+</body>
+</html>
